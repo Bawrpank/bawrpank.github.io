@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Мой первый сайт</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
     <nav>
         <div class="logo">Андрей Браун </div>
-        <div class="menu"><ul>
-            
+        <div class="menu">
+           <ul>  
             <li>Обо мне</li>
             <li>Услуги</li>
             <li>Отзывы</li>
@@ -26,71 +28,81 @@
        <div class="title_container">
         <h1>Привет <br> Я Андрей Браун</h1>
         <h4> Фулл стек веб-разработчик</h4>
-        <form action="#">
-        <button type="submit"> Обо мне </button>
-        <button type="submit"> Мои работы </button>
-        </form>
+        <input type="submit" value="Обо мне">
+        <input type="submit" value="Мои работы"> 
         </div>
     </div>
-    <div>
+    <div class="about">
       <h2>Обо мне</h2>  
-      <img src="img/line.png" alt="line">
+      <img class="line" src="img/line.png" alt="line">
       <p>
         
       </p>
-      <img src="img/foto.png" alt="Фото Андрея">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam impedit, atque explicabo rem accusamus fuga, nihil corporis, velit beatae veniam nisi dolor. Ut amet possimus repellat blanditiis, laudantium, quisquam non veritatis dignissimos, modi recusandae consequuntur. Incidunt autem cupiditate iusto.</p>
-      <form action="#">
-      <button type="submit">Скачать резюме</button>
-      </form>
+      <img class="Andrey" src="img/foto.png" alt="Фото Андрея">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, unde nemo dolor numquam sequi recusandae ut veritatis explicabo obcaecati debitis amet earum hic harum. Laborum facere voluptates iusto asperiores necessitatibus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aspernatur facilis, necessitatibus aut non, veniam minus, distinctio vitae nisi perferendis dolorem? Vero neque, rem error sunt minus, a autem consequuntur!</p>
+      <button><img src="img/lesson4/ikon.png" alt="Кнопка «button»">Скачать резюме</button>
+      
     </div>
-    <div>
+    <div class="skills">
         <h2>Что я умею</h2>
-        <img src="img/line.png" alt="line">
-      <p>
-        
-      </p>
-        <div>
+        <img  class="line" src="img/line.png" alt="line">
+        <div class="skills2">
+        <ul>
+         <li>
           <img src="img/note.png" alt="Ноут">
-         <h4>Веб-дизайн</h4>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quo voluptate odio fuga nemo nostrum molestias delectus sint in distinctio.</p>
+          <h4>Веб-дизайн</h4>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, non!</span>
+         </li>
+          <li>
          <img src="img/slash.png" alt="Знак">
-         </div>
-         <div>
-         <h4>Разработка</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quo voluptate odio fuga nemo nostrum molestias delectus sint in distinctio.</p>
+         <h4>Разработка</h4>  
+         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, non!</span>
+         </li>
+         <li>
          <img src="img/rocket.png" alt="Ракета">
-         </div>
-         <div>
-         <h4>СЕО-оптимизация</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quo voluptate odio fuga nemo nostrum molestias delectus sint in distinctio.</p>
+          <h4>СЕО-оптимизация</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, non!</span>
+         </li>
+         <li>
          <img src="img/sound.png" alt="Граммофон">
-         </div>
-         <div>
-         <h4>Маркетинг</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quo voluptate odio fuga nemo nostrum molestias delectus sint in distinctio.</p>
+          <h4>Маркетинг</h4>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, non!</span>
+         </li>
+        
+          </ul>
           </div>
+    
     </div>
-    <div>
-        <h2>Кейсы</h2>
-        <img src="img/line.png" alt="line">
+   
+    <div class="cases">
+  
+       <h2>Кейсы</h2>
+       
+        <img class="line" src="img/line.png" alt="line">
       <p>
         
       </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, quidem.</p>
-        <img src="img/example.png" alt="фотка">
+        <p class="top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatem explicabo ex cumque aliquam voluptate ab impedit quidem a earum.</p>
+    
+        <div class="name">
         <h3>CLIENT:</h3>
         <p>Какая-то кампания</p>
         <h3>WEBSITE:</h3>
         <p>www.somedomain.com</p>
-        <h3>НАЗВАНИЕ ПРОЕКТА</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum optio eos similique earum, commodi odit, sequi molestias. Aut, repellat iste nihil, necessitatibus, eveniet eligendi officia magnam veritatis deleniti cumque sed optio tempora, tenetur! In autem dolorem aperiam eligendi laborum id accusamus quas fugit placeat incidunt voluptates odio, veniam quam culpa.</p>
         <form action="#">
-        <button type="submit">VISIT LINE SITE</button>
+        <button class="visit" type="submit">VISIT LINE SITE</button>
         </form>
+        </div>
+        <div class="name2">
+        <h4>Название проекта:</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum optio eos similique earum, commodi odit, sequi molestias. Aut, repellat iste nihil, necessitatibus, eveniet eligendi officia magnam veritatis deleniti cumque sed optio tempora, tenetur! In autem dolorem aperiam eligendi laborum id accusamus quas fugit placeat incidunt voluptates odio, veniam quam culpa.</p>
+        </div>
+       
     </div>
-    <div>
+    <div class="money">
         <h2>РАСЧЕТ СТОИМОСТИ</h2>  
+        <div class="money2">
         <h3>ТИП САЙТА</h3>
          <form action="#">
             <select name="list1" id="list" >
@@ -119,37 +131,46 @@
                   <option value="opt3">opt3</option>
             </select>
          </form>
-         <p>Сроки</p>
-         <p>Стоимость</p>
-        
+         <img src="img/lesson4/finish.png" alt="line">
+         <p>Стоимость<span class="price">0</span>
+         </p>
+         <p>Сроки<span class="deadline">0</span></p>
+        </div>
     </div>
-    <div>
+    <div class="stat">
     <h2>НЕМНОГО СТАТИСТИКИ</h2>
-    <img src="img/line.png" alt="line">
-      <p>
-        
-      </p>
+    <img class="line4" src="img/line.png" alt="line">
+     <div class="stat2"> 
+      <ul><li>
     <img src="img/Smile.png" alt="смаил">
     <h3>120</h3>
     <p>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+     </li>
+    <li>
     <img src="img/slash2.png" alt="скобки">
     <h3>4.600</h3>
     <p>ЧАСОВ РАБОТЫ</p>
+    </li>
+    <li>
     <img src="img/ok.png" alt="ok">
     <h3>340</h3>
     <p>ПРОЕКТОВ ЗАВЕРШЕНО</p>
+    </li><li>
     <img src="img/win.png" alt="кубок">
     <h3>23</h3>
     <p>НАГРАД ПОЛУЧЕНО</p>
+    </li>
+    </ul>
     </div>
-    <div>
+    </div>
+    <div class="speak">
         <h2>ОТЗЫВЫ</h2>
-        <img src="img/line.png" alt="line">
+        <img class="line5" src="img/line.png" alt="line">
       <p>
         
       </p>
-      <img src="img/Michael.png" alt="Миша">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, voluptas ducimus culpa dignissimos consectetur eaque maxime veritatis nam dolor magni.</p>
+      <img class="Misha" src="img/Michael.png" alt="Миша">
+      <p class="fish">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa harum expedita, impedit nobis excepturi esse, iste vero tempore reiciendis dolorem odio cumque voluptas incidunt dolor, optio! Similique excepturi, earum iste?</p>
       <p><b>Михаил</b>, Ген директор ПАО "Газпром"</p>
       <form action="#">
           <input type="radio" name="отзыв1">
@@ -157,26 +178,39 @@
           <input type="radio" name="отзыв1">
       </form>
     </div>
-    <div>
+    <div class="contacts">
         <h2>МОИ КОНТАКТЫ</h2>
-        <img src="img/line.png" alt="line">
-      <p>
-        
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, necessitatibus.</p>
+        <img class="line6" src="img/line.png" alt="line">
+     
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, necessitatibus.</p>
+      <ul><li>
        <img src="img/geo.png" alt="гео">
        <p>Актуальный адрес</p>
+       </li><li>
        <img src="img/mail.png" alt="конверт">
        <p>Акутальная почта</p>
+       </li><li>
        <img src="img/phone.png" alt="трубка">
        <p>Актуальный номер тлф</p>
+       </li></ul>
        <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
        <form action="#">
+          <div class="contacts2">
            <input type="text" placeholder="Имя">
            <input type="text" placeholder="Email">
-           <textarea name="text" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-           <input type="reset" value="Отправить">
+           </div>
+           <p>
+           <textarea name="text" id="" cols="106" rows="10" placeholder="Сообщение"></textarea>
+           </p>
+           <input class="sent" type="reset" value="Отправить">
        </form>
+    </div>
+    <div class="map">
+        
+    </div>
+    <div class="bottom">
+        <p>Copyright © 2021 Андрей Браун Design by Web
+</p>
     </div>
 
 </body>
